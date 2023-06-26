@@ -9,9 +9,9 @@ function assembleCharacters(){
         creature.textContent = value.name
     
         let container = document.getElementById('cont')
-        container.appendChild(animal)
+        container.appendChild(creature)
         //Add an event listener and give instructions
-        animal.addEventListener('click', ()=> {
+        creature.addEventListener('click', ()=> {
             //assign an element name element
             let animal =document.createElement('img')
             animal.src=value.image
