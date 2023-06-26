@@ -13,9 +13,3 @@ A reset button (<button>) is created and added to the paragraph element, allowin
 Clicking the reset button increments the vote count by 1 and updates the display accordingly.
 The event listener for the paragraph element is set to trigger only once, ensuring that users can only vote once for each character.
 The assembleCharacters function is called when the HTML content has finished loading.
-
-TECHNOLOGIES
-JavaScript
-Fetch API
-HTML
-Please make sure that your project environment supports these technologies.
